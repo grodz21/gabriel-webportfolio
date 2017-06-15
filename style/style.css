@@ -1,0 +1,47 @@
+* {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	color: white;
+}
+
+body {
+	background-color: #2E2E2E;
+}
+
+#underConst {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+    top: 40%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.loader{
+  margin: 0 0 2em;
+/*  height: 100px;
+*/  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  /*display: inline-block;*/
+}
+
+#loading {
+	position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-right: -45%;
+    transform: translate(-50%, -50%)
+}
+
+/*
+  Set the color of the icon
+*/
+svg path,
+svg rect{
+  fill: #FF6700;
+}
