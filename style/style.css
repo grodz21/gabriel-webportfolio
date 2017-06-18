@@ -1,47 +1,143 @@
 * {
-	font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-	color: white;
+button {
+  color: #FFFFFF;
+  background: transparent;
+  cursor: pointer !important;
+  border-color: ##FFFFFF;
+  border-radius: 20px;
+  width: 130px;
+  height: 30px;
 }
 
-body {
-	background-color: #2E2E2E;
+.container-fluid {
+  height: 100vh;
 }
 
-#underConst {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-    top: 40%;
-    left: 45%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+#viewProjectButtons {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.loader{
-  margin: 0 0 2em;
-/*  height: 100px;
-*/  width: 20%;
-  text-align: center;
-  padding: 1em;
-  margin: 0 auto 1em;
-  /*display: inline-block;*/
+#contactInfo {
+  height: 40vh;
 }
 
-#loading {
-	position: absolute;
-    top: 50%;
-    left: 45%;
-    margin-right: -45%;
-    transform: translate(-50%, -50%)
+.footerInfo {
+  background-color: #E6E6E6;
 }
 
-/*
-  Set the color of the icon
-*/
-svg path,
-svg rect{
-  fill: #FF6700;
+@media only screen and (min-width: 769px) {
+  #logo {
+    position: fixed;
+  }
 }
+
+
+
+/* Styling and animation for hamburger menu button */
+@media only screen and (min-width : 769px) {
+  .containerMenu {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    position: fixed;
+    top: 30px;
+    right: -170px;
+    width: 300px;
+  }
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/******************************************************************/
+
+
+/* Parallax Effect*/
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#parallax1 {
+  background-image: url('../images/screen/gridtalk.jpg');
+}
+
+#parallax2 {
+  background-image: url('../images/carpic.jpg');
+}
+
+#parallax3 {
+  background-image: url('../images/carpic2.jpg');
+}
+
+/*****************************************************************/
+
+/* Background resized for mobile */
+@media only screen and (max-width : 768px) {
+    #parallax1 {
+      background-image: url('../images/mobile/gridtalkMobile.jpg');
+    }
+
+    #logo {
+      top: 30px;
+    }
+    .containerMenu {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      top: 30px;
+      right: -220px;
+      width: 300px;
+    }
+    
+}
+
+/* change in media query the position absolute of the hamburger menu */
+
+/* crop pictures to fit phones portrait mode and landscape. */
+
+
+
+
+
+
