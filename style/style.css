@@ -119,10 +119,17 @@ body, html {
     #parallax1 {
       background-image: url('../images/mobile/gridtalkMobile.jpg');
     }
+
     .parallax {
-      background-attachment: none;
+      background-attachment: scroll;
       background-position: center center;
     }
+
+    .rowHead {
+      z-index: 3;
+    }
+
+
 
     #logo {
       top: 30px;
@@ -133,6 +140,8 @@ body, html {
       position: absolute;
       top: 30px;
       right: -220px;
+      left: 230px;
+      z-index: 5;
       width: 300px;
     }
     
