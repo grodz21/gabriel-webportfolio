@@ -37,6 +37,7 @@ button {
   #logo {
     position: fixed;
     z-index: 3;
+
   }
 }
 
@@ -132,19 +133,20 @@ body, html {
 
     #hamburgerMenu {
       position: fixed;
+      z-index: 3;
     }
 
     #logo {
       top: 30px;
       position: fixed;
+      z-index: 3;
     }
     .containerMenu {
       display: inline-block;
       cursor: pointer;
       position: absolute;
       top: 30px;
-      right: -220px;
-      left: 230px;
+      right: -330px;
       z-index: 5;
       width: 300px;
     }
