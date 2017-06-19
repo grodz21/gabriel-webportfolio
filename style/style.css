@@ -3,10 +3,10 @@
 }
 
 button {
-  color: #FFFFFF;
+  color: black;
   background: transparent;
   cursor: pointer !important;
-  border: 1px solid #FFFFFF;
+  border: 1px solid black;
   border-radius: 20px;
   width: 130px;
   height: 30px;
@@ -29,17 +29,20 @@ button {
   height: 40vh;
 }
 
+#social {
+  cursor: pointer;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+
+
 .footerInfo {
   background-color: #E6E6E6;
 }
 
-@media only screen and (min-width: 769px) {
-  #logo {
-    position: fixed;
-    z-index: 3;
-
-  }
-}
 
 
 
@@ -110,15 +113,41 @@ body, html {
 }
 
 #parallax3 {
-  background-image: url('../images/carpic2.jpg');
+  background-image: url('../images/screen/automotive-quiz.jpg');
+}
+
+
+
+/*****************************************************************/
+
+/* Styling for desktop screens */
+@media only screen and (min-width: 769px) {
+  #logo {
+    position: fixed;
+    z-index: 3;
+
+  }
 }
 
 /*****************************************************************/
 
-/* Background resized for mobile */
+
+
+
+/*****************************************************************/
+
+/* Styling changes for mobile phone screens */
 @media only screen and (max-width : 768px) {
     #parallax1 {
       background-image: url('../images/mobile/gridtalkMobile.jpg');
+    }
+
+    #parallax2 {
+      background-image: url('../images/mobile/car-search.jpg');
+    }
+
+    #parallax3 {
+      background-image: url('../images/mobile/auto-quiz.jpg');
     }
 
     .parallax {
@@ -141,6 +170,7 @@ body, html {
       position: fixed;
       z-index: 3;
     }
+
     .containerMenu {
       display: inline-block;
       cursor: pointer;
@@ -153,9 +183,6 @@ body, html {
     
 }
 
-/* change in media query the position absolute of the hamburger menu */
-
-/* crop pictures to fit phones portrait mode and landscape. */
 
 
 
