@@ -128,63 +128,76 @@ body, html {
     z-index: 3;
     top: 20px;
   }
+
+  .copyRight {
+    margin-left: 15px;
+  }
+
+  #copyRow {
+    margin-top: 15px;
+  }
 }
 
 /*****************************************************************/
 
 
 
-
-/*****************************************************************/
-
 /* Styling changes for mobile phone screens */
 @media only screen and (max-width : 768px) {
-    #parallax1 {
-      background-image: url('../images/mobile/gridtalkMobile.jpg');
-    }
+  #parallax1 {
+    background-image: url('../images/mobile/gridtalkMobile.jpg');
+  }
 
-    #parallax2 {
-      background-image: url('../images/mobile/car-search.jpg');
-    }
+  #parallax2 {
+    background-image: url('../images/mobile/car-search.jpg');
+  }
 
-    #parallax3 {
-      background-image: url('../images/mobile/auto-quiz.jpg');
-    }
+  #parallax3 {
+    background-image: url('../images/mobile/auto-quiz.jpg');
+  }
 
-    .parallax {
-      background-attachment: scroll;
-      background-position: center center;
-    }
+  .parallax {
+    background-attachment: scroll;
+    background-position: center center;
+  }
 
-    #headRow {
-      z-index: 3;
-      position: fixed;
-    }
+  #headRow {
+    z-index: 3;
+    position: fixed;
+  }
 
-    #hamburgerMenu {
-      position: fixed;
-      z-index: 3;
-    }
+  #hamburgerMenu {
+    position: fixed;
+    z-index: 3;
+  }
 
-    #logo {
-      top: 30px;
-      position: fixed;
-      z-index: 3;
-    }
+  #logo {
+    top: 30px;
+    position: fixed;
+    z-index: 3;
+  }
 
-    .containerMenu {
-      display: inline-block;
-      cursor: pointer;
-      position: absolute;
-      top: 30px;
-      right: -330px;
-      z-index: 5;
-      width: 300px;
-    }
+  .containerMenu {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: -330px;
+    z-index: 5;
+    width: 300px;
+  }
 
-    #aboutWork, #contactEmail {
-      margin-bottom: 35px;
-    }
+  #aboutWork, #contactEmail {
+    margin-bottom: 35px;
+  }
+
+  .copyRight {
+    margin-left: 16px;
+  }
+
+  #copyRow {
+    margin-top: 7px;
+  }
     
 }
 
