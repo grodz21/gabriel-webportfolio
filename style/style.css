@@ -27,6 +27,7 @@ button {
 
 #contactInfo {
   height: 40vh;
+  padding-top: 20px;
 }
 
 #social {
@@ -125,7 +126,7 @@ body, html {
   #logo {
     position: fixed;
     z-index: 3;
-
+    top: 20px;
   }
 }
 
@@ -179,6 +180,10 @@ body, html {
       right: -330px;
       z-index: 5;
       width: 300px;
+    }
+
+    #aboutWork, #contactEmail {
+      margin-bottom: 35px;
     }
     
 }
