@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./style/style.css">
+	<link rel="stylesheet" type="text/css" href="./style/aboutme-modal.css">
 	<link rel="icon" href="./images/grfavicon.png" sizes="32x32">
 
 </head>
@@ -23,13 +24,32 @@
 						<img src="./images/grlogo.png" alt="gabriel rodriguez logo" style="height:80px;">
 					</div>
 
-					<!-- <div class="col-md-6 col-xs-9" id="hamburgerMenu">
-						<div class="containerMenu" onclick="menuAnimation(this)">
-						  <div class="bar1"></div>
-						  <div class="bar2"></div>
-						  <div class="bar3"></div>
+					<div class="col-md-12 col-xs-12" id="aboutMeDiv">
+						<div class="aboutMeButton">
+							<!-- Trigger/Open The Modal -->
+							<button id="myBtn">ABOUT ME</button>
 						</div>
-					</div> -->
+					</div>
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <div class="modal-header">
+					      <span class="close">&times;</span>
+					      <h2>Who Am I?</h2>
+					    </div>
+					    <div class="modal-body">
+					      <p>A junior front end developer turning his passion for the web into his profession. Skilled in writing, clean, testable UI code. Experienced with mobile-first responsive development with HTML5 and CSS3. Experienced with modern tooling and excited to pick up the right tools for the job.</p>
+					      <p>If you have any comments or questions about my work send me a message.</p>
+					    </div>
+					    <div class="modal-footer">
+					      <h3>Thank You for Visiting</h3>
+					    </div>
+					  </div>
+
+					</div>
 	
 				</div>
 				<div class="row">

@@ -2,6 +2,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+button:focus {outline:0;} /*Removes blue boxes of buttons when clicked*/
+
 button {
   color: black;
   background: transparent;
