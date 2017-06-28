@@ -77,6 +77,20 @@
     font-size: 125%
 }
 
+@media only screen and (max-width : 768px) {
+    .modal-body {
+        padding: 20px 10px;
+        text-align: justify;
+        background-color: #f8f8ff;
+        font-size: 110%
+    }
+
+    .modal-content {
+        width: 80%;
+        margin-top: 30%;
+    }
+}
+
 .modal-footer {
     padding: 2px 16px;
     background-color: #00ACAC;
